@@ -1,0 +1,105 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "f03b1ad2-a7d6-451a-a034-e088764efb6b": {
+        "id": "f03b1ad2-a7d6-451a-a034-e088764efb6b",
+        "parent": null,
+        "name": "asa.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "asa.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "asa"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameqaindusnsany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "f03b1ad2-a7d6-451a-a034-e088764efb6b"
+    ],
+    "currentFileId": "f03b1ad2-a7d6-451a-a034-e088764efb6b",
+    "resources": {
+      "apigusEast1sachithraAPInameqaindusnsany": {
+        "name": "apigusEast1sachithraAPInameqaindusnsany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/test/stging": "3y9a7c",
+            "/test": "9vz3u0",
+            "/test/stging/ind": "aw3y41",
+            "/qa/indu": "vpyhm8",
+            "/qa": "w0smbw",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "qa/indu/sns",
+          "resourcePath": "/qa/indu/sns",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test123",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "asa",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586171894287
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "asa",
+      "url": "https://github.com/Indunil1992/asa"
+    }
+  }
+}
