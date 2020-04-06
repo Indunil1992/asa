@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "asa.js",
         "cursor": {
-          "lineNumber": 2,
-          "column": 5
+          "lineNumber": 3,
+          "column": 48
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -27,7 +27,16 @@
             "resourceName": "apigusEast1sachithraAPInameqaindusnsany",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "430031ac-897a-475e-a980-8637c4eae419": {
+            "id": "430031ac-897a-475e-a980-8637c4eae419",
+            "name": "Test event",
+            "functionId": "f03b1ad2-a7d6-451a-a034-e088764efb6b",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -93,7 +102,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1586171894287
+    "lastSave": 1586172081319
   },
   "VCS_STATE": {
     "provider": "GitHub",
